@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #121212;
+    color: #fff;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #ff4d4d;
+}
+
+header ul {
+    display: flex;
+    gap: 20px;
+}
+
+header ul li a {
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+}
+
+header ul li a:hover {
+    color: #ff4d4d;
+}
+
+#home {
+    height: 100vh;
+    background: url('your-hero-image.jpg') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    border-radius: 8px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background: #ff4d4d;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 50px;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #e60000;
+}
+
+section {
+    padding: 60px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.music-player iframe {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.event-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.event {
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+    text-align: center;
+}
+
+.event h3 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+.event p {
+    margin-bottom: 15px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+    background: #222;
+    color: #fff;
+}
+
+form button {
+    background: #ff4d4d;
+    padding: 15px;
+    width: 100%;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #222;
+    text-align: center;
+    padding: 20px;
+    font-size: 1rem;
+    color: #888;
+}
